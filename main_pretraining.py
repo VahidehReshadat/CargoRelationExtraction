@@ -1,18 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 27 11:16:26 2019
 
-@author: weetee
-"""
 from src.preprocessing_funcs import load_dataloaders
 from src.trainer import train_and_fit
 import logging
 from argparse import ArgumentParser
 
-'''
-This trains the BERT model on matching the blanks 
-'''
 
 logging.basicConfig(format='%(asctime)s [%(levelname)s]: %(message)s', \
                     datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
