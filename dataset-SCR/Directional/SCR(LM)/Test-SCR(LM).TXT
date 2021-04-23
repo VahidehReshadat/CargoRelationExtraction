@@ -1,0 +1,320 @@
+311	"Before the release of packaging for customers, <e1>va-q-tec's inventory</e1>,  quality checks, conditioning and preparation of containers, and box packaging for va-q-tec's products organized by <e2>LSEC</e2>."
+Arranges(e2,e1)
+Comment: 
+
+312	"<e1>WFS</e1> has installed two new dedicated pharma cells in its main warehouse offering <e2>15 degrees Celsius to 25 degrees Celsius</e2> and 2  degrees Celsius to 8 degrees Celsius perature-controlled environments."
+HasTemperatureRange(e1,e2)
+Comment:
+
+313	"<e1>Cargolux</e1> airlines international has strengthened its CV pharma product by signing a global rental agreement to use va-q-tec advanced <e2>passive containers</e2>."
+Hires(e1,e2)
+Comment: 
+
+314	"The RAP utilises innovative heating and compressor driven cooling technologies together with advanced <e1>thermocor vip insulation</e1> to eliminate the <e2>temperature risk</e2> to payloads associated with extreme ambient temperature conditions and long-duration shipments."
+Decreses(e1,e2)
+Comment:
+
+315	"The new portal uses a <e1>unique global standard code</e1> (GLN) for identifying the location of the <e2>shipments</e2>."
+Designate(e1,e2)
+Comment:
+
+316	"<e1>The Amsterdam airport Schiphol logistics community</e1> has launched a closed <e2>pharma chain program</e2>."
+IncludesCapability(e1,e2)
+Comment:
+
+317	"IATA has awarded <e1>Swissport cargo services</e1> at Basel's EuroAirport with the <e2>CEIV pharma certificate</e2> for pharmaceutical logistics."
+HasCertification(e1,e2)
+Comment:
+
+318	"<e1>Swissport</e1> basel certified for <e2>pharma logistics</e2> by IATA."
+HasCertification(e1,e2)
+Comment: 
+
+319	"Earlier this month, Brussels became the first <e1>WFS cargo station</e1> in Europe to achieve <e2>IATA CEIV pharma certification</e2>."
+HasCertification(e1,e2)
+Comment:
+
+320	"<e1>Cathay pacific</e1> has become the first airline in the world to be awarded <e2>CEIV fresh</e2>, IATA's accreditation for perishable cargo handling."
+HasCertification(e1,e2)
+Comment: 
+
+321	"<e1>IJS global GEFCO Netherlands</e1> (nl) has been awarded a <e2>Good Distribution Practice</e2> (GDP) certificate by the dutch ministry of health, with immediate effect."
+HasCertification(e1,e2)
+Comment:
+
+322	"In a recent major move, <e1>Turkish cargo</e1> has obtained the <e2>Authorised Economic Operator certificate</e2>."
+HasCertification(e1,e2)
+Comment: 
+
+323	"<e1>AEO certificate</e1> has been  obtained for <e2>Turkish cargo</e2>."
+HasCertification(e1,e2)
+Comment: 
+
+324	"The operation is accredited by <e1>AEO</e1>, IATA, CAA and ISO, and is the first new external temporary storage facility in <e2>Yusen Logistics centre</e2>, U.K."
+IsLocatedIn(e1,e2)
+Comment:
+
+325	"We have a strategy focusing on life sciences (pharma), <e1>perishable cargo</e1> mainly <e2>seafood</e2>."
+HasCharacteristics(e2,e1)
+Comment: 
+
+326	"White cover is primarily used for protecting <e1>hazardous materials</e1> such as  flammable, <e2>explosive cargo</e2> not having a higher temperature tolerance."
+HasCharacteristics(e2,e1)
+Comment:
+
+327	"This unique collaboration by means of SCMP and the Holland alliance is of great value for the secure supply chain for <e1>alcohol</e1> or benzene as <e2>dangerous cargoes</e2>."
+HasCharacteristics(e1,e2)
+Comment: 
+
+328	"The opticooler is equipped with battery powered cooling compressors and heaters as well as a self regulating temperature control, so that <e1>temperature sensitive goods</e1>, in particular pharmaceuticals such as <e2>insulin</e2> and vaccines, stay within range at any point in the storage area."
+HasCharacteristics(e2,e1)
+Comment: 
+
+329	"Finnair has introduced eight services for <e1>pharma</e1> and seafood as <e2>perishable types of cargo</e2>  and will have two more by the end of 2015, kuusenmaki adds, as part of its bellyhold cargo strategy."
+HasCharacteristics(e2,e1)
+Comment:
+
+330	"Cargolux started <e1>flight BA170</e1> to <e2>Aguadilla</e2> in Puerto Rico last month mainly to cater for the pharma industry, and the luxembourg-based airline says the va-q-tec containers are ideally suited for these operations."
+HasDestination(e1,e2)
+Comment:
+
+331	"TAP Air Cargo operates <e1>Airbus A318 flight</e1> from <e2>London</e2> to New Orleans international."
+HasOrigin(e1,e2)
+Comment:
+
+332	"<e1>IAG cargo</e1> is hoping its recently launched <e2>time-critical solution</e2> will prove popular with shippers utilising new bellyhold capacity between new orleans and london."
+IncludesCapability(e1,e2)
+Comment:
+
+333	"Additionally there are special cooling units for <e1>pharmaceuticals</e1> ensuring a temperature between <e2>2-8 degrees Celsius</e2> and a unit for goods which require a constant temperature of -20 degrees celcius."
+HasTemperatureRange(e1,e2)
+Comment:
+
+334	"This is the sprawling <e1>complex</e1> that is Peru's largest <e2>producer</e2> of silver."
+Other
+Comment:
+
+335	"The facility has the capacity to store up to 16 cargo units and offers separate <e1>temperature chambers</e1> offering both <e2>2-8</e2> C and 15-25 environments."
+HasTemperatureRange(e1,e2)
+Comment:
+
+336	"<e1>Peli Biothermal</e1> has signed a global distribution partnership with <e2>Wilpak group international</e2>, providing customers the use of protective covers for pharma shipments."
+Hires(e1,e2)
+Comment:  
+
+337	"<e1>Italian carrier Alitalia</e1> has also signed a master agreement with the <e2>German ULD</e2> provider and has also opened the largest cargo terminal in africa at its hub in Addis Ababa."
+Hires(e1,e2)
+Comment: 
+
+338	"To supports our customers' premium cargo products for <e1>temperature-sensitive pharma shipments</e1>, WFS is also progressing towards its certification in Denmark with the opening of our new <e2>cooler facility</e2>."
+IncludesCapability(e2,e1)
+Comment: 
+
+339	"As an industry, we have a duty to ensure that global standards and best practices are in place to ensure perishable products are handled and transported to avoid the <e1>product loss</e1> increased by <e2>temperature risk</e2>."
+Increases(e1,e2)
+Comment:
+
+340	"Advanced thermocor VIP insulation eliminates the <e1>temperature risk</e1> associated with <e2>extreme ambient temperature</e2> conditions and long-duration shipments."
+Increases(e1,e2)
+Comment:
+
+341	"Logistics firm agility has opened the first <e1>life sciences storage</e1> and handling facility in the <e2>Hyderabad airport</e2> zone."
+IsLocatedIn(e1,e2)
+Comment:
+
+342	"IJS global GEFCO also recently opened a new <e1>coolchain</e1> at <e2>Heathrow airport</e2> in London, UK, as part of ongoing plans to strengthen its life sciences and healthcare offering."
+IsLocatedIn(e1,e2)
+Comment:
+
+343	"Last year in <e1>Frankfurt airport</e1>, a 24-hour life sciences and <e2>healthcare warehouse</e2> facility were opened by IJS global GEFCO."
+IncludesCapability(e1,e2)
+Comment:
+
+344	"We are very glad to offer our customers a highly <e1>reliable packaging solution</e1> to transport <e2>temperature-sensitive shipments</e2> with Dokasch's opticooler."
+HasCharacteristics(e2,e1)
+Comment:
+
+345	"The new portal uses a unique <e1>Global standard code</e1> (GLN) combined with an order number for <e2>special cargoes</e2>."
+Designate(e1,e2)
+Comment:
+
+346	"Shipment data for <e1>flower products</e1> is linked to air waybill numbers by the portal, which then generates a <e2>SPH code</e2> that gives users access to the data in one place."
+Designate(e2,e1)
+Comment:
+
+347	"<e1>Cargo and logistics transportation</e1> operated by <e2>IATA Ground Handling agents</e2> is a highly reliable way for transporting temperature-sensitive cargoes."
+OfferSolution(e2,e1)
+Comment:
+
+348	"<e1>Wilpak group</e1> is the exclusive distributor to supply Peli Biothermal with the InsulCap thermal covers for the global <e2>transportation of pharmaceutical shipments</e2> and are dedicated to collaborating with them to deliver world-leading thermal protection innovations."
+Arranges(e1,e2)
+Comment:
+
+349	"With annual growth rates of nearly 10% and a total turnover of some 47,000 tonnes in 2017, <e1>Basel</e1> is one of the most important cargo locations of <e2>Swissport</e2>."
+PartOf(e1,e2)
+Comment:
+
+350	"<e1>Air Cargo Handling</e1>, the world's largest air cargo handler, has opened a new temperature controlled pharma facility in <e2>Copenhagen</e2>."
+IsLocatedIn(e1,e2)
+Comment:
+
+351	"The 6,000 sq ft life sciences excellence center (lsec) at <e1>Rajiv Gandhi International Airport</e1> will serve pharma manufacturers in <e2>India</e2>."
+IsLocatedIn(e1,e2)
+Comment: 
+
+352	"The most successful carrier at <e1>Ethiopia</e1> and its hub in <e2>Ethiopian airport</e2> develops very positive regarding the cargo handling."
+IsLocatedIn(e1,e2)
+Comment:
+
+353	"Wilpak's InsulCap <e1>pallet covers</e1> provide protection against temperature spikes and weather extremes during transportation of <e2>pharmaceuticals</e2>."
+IsPackedIn(e2,e1)
+Comment:
+
+354	"Medpak VIC allows companies in the clinical trials sector to ship test <e1>medications</e1> in <e2>gel packs</e2>."
+IsPackedIn(e2,e1)
+Comment:
+
+355	"As part of <e1>Istanbul Ataturk Airport</e1>, <e2>Turkish carrier</e2> opened a  new cargo facility making it the third largest in global network."
+Hires(e1,e2)
+Comment:
+
+356	"<e1>DHL courier</e1> will set up a logistics centre on an area of over 60,000 square metres and create 500 new jobs in <e2>Maastricht Airport</e2>."
+IsLocatedIn(e1,e2)
+Comment: 
+
+357	"During the transportation of consignments of <e1>pharmaceuticals</e1>, <e2>Turkish Airline</e2> acts extremely cautiously to preserve the integrity of the cold chain and the products, and gives the utmost priority to this issue."
+Ships(e2,e1)
+Comment:
+
+358	"<e1>Portuguese Airline</e1> tap cargo handles global temperature-controlled <e2>pharmaceuticals</e2>, vaccines, biotechnological products, diagnostic samples."
+Arranges(e1,e2)
+Comment: 
+
+359	"WFS installed two new dedicated pharma cells in its main Brussels <e1>warehouse</e1> for storage temperatures between 2C and 25C and is adopting handling and training procedures specifically for <e2>pharma cargo</e2>."
+IsStoredIn(e2,e1)
+Comment:
+
+360	"For managing and processing <e1>fruits</e1> products and mail for express specialist SoDExI the <e2>warehouse</e2> will be used."
+IsStoredIn(e1,e2)
+Comment: 
+
+361	"The va-Q-tec <e1>thermal containers</e1> enable enhanced <e2>pharmaceutical products</e2> transportation without temperature deviation from production site to consignee." 
+IsStoredIn(e2,e1)
+Comment: 
+
+362	"The airline's tempcontrol service transports <e1>vaccines</e1> and other sensitive high-value biopharmaceutical shipments that require precise <e2>temperature control storage</e2>."
+IsStoredIn(e1,e2)
+Comment:
+
+363	"With the intuitive <e1>va-Q-tec solutions</e1>, cargolux has the most appropriate and proven shipping tool for <e2>temperature sensitive healthcare products</e2>."
+RequiresCapability(e2,e1)
+Comment:
+
+364	"The covers complement the shipper systems deployed by peli biothermal, with the insulcap thermal covers allowing <e1>dangerous goods</e1> to be transported worldwide on passenger and <e2>cargo aircrafts</e2> while withstand rapid temperature changes when the cold chain is broken."
+Ships(e2,e1)
+Comment:
+
+365	"<e1>AirBridgeCargo</e1> provides conditioning, preparation and <e2>handling of pharmaceutical goods</e2> and operate as a control tower for agility life sciences customers in India."
+Arranges(e1,e2)
+Comment:
+
+366	"The new <e1>white cover solution</e1> developed in collaboration with Dupont, is rolling out by <e2>Dubai-based Airline Emirates skycargo</e2>."
+OfferSolution(e2,e1)
+Comment:
+
+367	"The <e1>CSafe RAP</e1> offers <e2>air recirculation technology</e2> and an autonomous temperature management system."
+OfferSolution(e1,e2)
+Comment:
+
+368	"<e1>Ethiopian Airlines</e1> is improving the quality of its climate-controlled services through the use of <e2>DoKasch temperature solutions</e2>."
+OfferSolution(e1,e2)
+Comment:
+
+369	"In <e1>India airport</e1>, <e2>Indigo airline</e2> operates from 61 locations and controls warehouse space covering all major ports, airports and inland locations in the country."
+PartOf(e2,e1)
+Comment: 
+
+370	"The carrier boasts state of the art <e1>cool chain solution</e1> for <e2>pharma products</e2> at its emirates Skycentral cargo hubs at Dubai international airport."
+IncludesCapability(e1,e2)
+Comment:
+
+371	"Finnair cargo is aiming to double the amount of cargo it handles by 2020, as part of its investment in <e1>heavy cargo</e1> facility  for handling <e2>oversized shipments</e2> and construction of a new freight terminal."
+RequiresCapability(e2,e1)
+Comment: 
+
+372	"Additionally for <e1>valuable goods</e1> which require special carethere are special <e2>secure units</e2>."
+RequiresCapability(e2,e1)
+Comment:
+
+373	"The collaboration between emirates skycargo and dupont on the new white cover xtreme is part of an existing agreement between the two companies to develop <e1>THRUCOOL</e1>, in particular thermal covers, for the <e2>pharma cargo</e2> industry."
+RequiresCapability(e2,e1)
+Comment:
+
+374	"As a key option for our customers' <e1>perishable shipments</e1>, American is pleased to prepare <e2>CSafe RAP</e2>."
+RequiresCapability(e1,e2)
+Comment:
+
+375	"For shipping <e1>pharma</e1>, <e2>British Airline</e2> is already one of the europe's largest gateways."
+Ships(e2,e1)
+Comment: 
+
+376	"Along with other airport stakeholders in hong kong, including cpsl (cathay pacific services limited), this collaborative approach further boosts <e1>Fly Hong Kong Airline</e1> reputation as a key international gateway for the handling of <e2>seafood</e2>."
+Ships(e1,e2)
+Comment: 
+
+377	"<e1>Cargolux Airlines</e1> have deep know-how in handling temperature-sensitive and <e2>valuable cargo</e2>."
+Ships(e1,e2)
+Comment:
+
+378	"With a temperature range of <e1>15 to 25 degrees Celsius</e1>, the facility features 7,500 square metres of <e2>temperature-controlled containers</e2>."
+HasTemperatureRange(e2,e1)
+Comment:
+
+379	"The probability of <e1>lane risk</e1> decreases using <e2>automation system</e2> within AirBridgeCargo."
+Decreses(e2,e1)
+Comment: 
+
+380	"<e1>Shipment data</e1> is linked to air waybill numbers by the portal, which then generates a unique <e2>GLN code</e2> that gives users access to the data in one place."
+Designate(e2,e1)
+Comment:
+
+381	"Recently a new <e1>temperature controlled handling service</e1> is provided as part of ongoing plans to strengthen <e2>IJS global GEFCO</e2> life sciences and healthcare offering."
+IncludesCapability(e2,e1)
+Comment:
+
+382	"It emphasises our continued focus for <e1>diamond</e1> by providing services with high <e2>valued shipments</e2> in the LSH (life science and healthcare) segment."
+HasCharacteristics(e1,e2)
+Comment:
+
+383	"IAG announced it would launch the first ever direct service from London to <e1>Louisiana</e1> from march 26 utilising a <e2>Boeing 787-8 aircraft</e2> with bellyhold capacity of up to 15 tonnes."
+HasDestination(e2,e1)
+Comment:
+
+384	"We are delighted to be handling cargo carried onboard air India's new non-stop services from <e1>Denmark</e1> which offers a direct <e2>fligt BA2490</e2> for exporters and importers in both countries."
+HasOrigin(e2,e1)
+Comment:
+
+385	"The <e1>pharmaceutical network</e1> of <e2>DSV</e2> is already the 10th-largest in the world and is forecasted to grow into a $25 billion industry by 2021."
+IncludesCapability(e2,e1)
+Comment:
+
+386	"So far, <e1>Pharma gateway Amsterdam</e1> has been recruited by <e2>WFS</e2>, Dnata, Swissport, air France KLM Martinair cargo, De jong special services, D.J."
+Hires(e2,e1)
+Comment:
+
+387	"We look forward to opening a dedicated <e1>refrigerated transportation facility</e1> at Oslo airport that is fully adapted to the future needs of the <e2>seafood</e2> industry."
+Ships(e1,e2)
+Comment:
+
+388	"He added that IAG cargo's recently launched <e1>critical product solution</e1> for <e2>emergency shipments</e2> and offering a guarantee to fly, could prove particularly popular with these shippers."
+RequiresCapability(e2,e1)
+Comment: 
+
+389	"We are very happy to add <e1>va-Q-tec service</e1> offerings especially on <e2>vulnerable cargo shipments</e2>."
+IncludesCapability(e1,e2)
+Comment:
+
+390	"Delta has created the first <e1>trans-atlantic flight</e1> connecting atlanta with other partners, stations and handlers in <e2>Amsterdam</e2>, Brussels, Milan, Paris and Rome."
+HasOrigin(e1,e2)
+Comment:
+

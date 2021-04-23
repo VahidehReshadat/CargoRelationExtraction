@@ -1,0 +1,920 @@
+1	"<e1>Austrian Airline</e1> linked to Panalpina's global network offering <e2>temperature-controlled air</e2> and ocean freight services."
+Arranges(e1,e2)
+Comment: 
+
+2	"<e1>Freight forwarder</e1> arranges <e2>documentation</e2>."
+Arranges(e1,e2)
+Comment: 
+
+3	"During the transit in <e1>Europe</e1>, Panalpina’s cargo customers will receive the best care on the <e2>KLM flights</e2>."
+HasTransitIn(e2,e1)
+Comment:
+
+4	"In the airfreight business, different products are combined eg <e1>pharma</e1> with <e2>speed</e2>."
+CanBeCombinedWith(e1,e2)
+Comment:
+
+5	"3,500 sq m covers temperature from <e1>15-25C</e1> with three dedicated truck docks, and 1,000 sq m covers temperature from 2-8C with two dedicated truck docks are chosen by <e2>Panalpina</e2>."
+ChoosesBookedTemperatureRang(e2,e1)
+Comment:
+
+6	"<e1>Panalpina</e1> can move products to every continent by air or ocean freight and using either <e2>active or passive cooling container</e2>."
+ChoosesPackaging(e1,e2)
+Comment: 
+
+7	"DHL Global Forwarding has developed <e1>sustainable packages</e1> for reducing the <e2>packaging risk</e2> on the environment."
+Decreses(e1,e2)
+Comment:
+
+8	"The <e1>SPH codes</e1> are the special handling codes are currently the most centralized method of designating and identifying <e2>shipments</e2>."
+Designate(e1,e2)
+Comment:
+
+9	"<e1>Turkish Cargo</e1> explains it is also planning to commission the <e2>Thermal Dolly</e2> service and using it for the temperature and time-critical consignments soon."
+OfferSolution(e1,e2)
+Comment:
+
+10	"<e1>Dnata Ground Handler</e1> provides passenger, baggage, ramp, and <e2>cargo handling services</e2> to many major airlines from around the world."
+Executes(e1,e2)
+Comment:
+
+11	"<e1>Panalpina's healthcare logistics centre</e1> near Frankfurt Airport has obtained <e2>Good Distribution Practice</e2> (GDP) certification, bringing the certified network to 38 locations."
+HasCertification(e1,e2)
+Comment:
+
+12	"In addition to various value-added and distribution services, the facility can provide storage for <e1>hazardous material</e1> such as <e2>oils</e2>, gas, chemical products and  radioactive substances in transit and offers direct connections to local cargo hubs DWC and Jebel Ali Port."
+HasCharacteristics(e2,e1)
+Comment:
+
+13	"We also implemented CO2 detectors in our hubs in Paris Charles de Gaulle and Amsterdam Schiphol so that we can safely store controlled shipments in combination with <e1>Dangerous Goods</e1>, including ICE and <e2>lithium batteries</e2>, informed Enrica Calonghi, director verticals, global head pharmaceutical logistics, AF-KLM Martinair Cargo."
+HasClass(e2,e1)
+Comment:
+
+14	"LATAM Cargo has added transferring <e1>dog</e1> to its portfolio of services, now offering <e2>live animal</e2> option."
+HasCommodityType(e1,e2)
+Comment:
+
+15	"Flower shipments on <e1>Nairobi pilot flights</e1> to the <e2>Aalsmeer</e2> flower auction in the Netherlands have proven to be traceable individually and in real time throughout their journey."
+HasDestination(e1,e2)
+Comment:
+
+16	"<e1>AirBridgeCargo</e1> flights will take place on the <e2>Wednesday morning</e2>."
+HasOperatingDay(e1,e2)
+Comment: 
+
+17	"At Mondays, the <e1>Swiss WorldCargo</e1> operates three daily flights from Zurich (ZRH) and <e2>Geneva</e2> (GVA) to JFK."
+HasOrigin(e1,e2)
+Comment:
+
+18	"<e1>Slot booking</e1> helps Liege handler improve <e2>truck</e2> handling times."
+HasRoute(e1,e2)
+Comment:
+
+19	"Another European mega-forwarder, <e1>Panalpina of Switzerland system</e1>, in May this year bought family-owned Air Connection, a Kenya-based perishables specialist in the <e2>export of flowers</e2> and vegetables."
+HasSolution(e1,e2)
+Comment:
+
+20	"Qatar Airways Cargo has two <e1>temperature controlled zones</e1> operated at 2 to 8 and <e2>15 to 25</e2> degrees with a capacity to hold a total of 156 unit load devices at any one time."
+HasTemperatureRange(e1,e2)
+Comment:
+
+21	"<e1>ABC connecting flights</e1> were established at its <e2>Moscow</e2> hub and in Dallas."
+HasTransitIn(e1,e2)
+Comment:
+
+22	"<e1>American Airlines</e1> pick <e2>iCargo</e2> for its web-based cargo management system."
+Hires(e1,e2)
+Comment:
+
+23	"Its location at the Jomo Kenyatta International Airport in Nairobi provides easy and quick access to all major airlines allowing for later cut-offs and shorter transit times leading to both <e1>cost savings</e1> and optimal handling of <e2>temperature sensitive goods</e2>."
+IncludesCapability(e2,e1)
+Comment:
+
+24	"<e1>30 degrees Celsius</e1> increases <e2>temperature excursion risk</e2>."
+Increases(e1,e2)
+Comment:
+
+25	"The vast majority of perishables are imported via <e1>Brussels Airport</e1> where Adelantex operates a <e2>warehouse</e2> directly on the tarmac with 1,600 sq m of cold storage."
+IsAvailableAt(e2,e1)
+Comment:
+
+26	"The <e1>pharma supply chain stakeholders</e1> opt for <e2>active and passive packaging systems</e2>, on the basis of product characteristics, trade lane complexities and overall risk profile."
+IsChosenBy(e2,e1)
+Comment: 
+
+27	"<e1>Flower shipments</e1> are designated and identified by the <e2>special handling codes</e2> (SPH)."
+IsDesignatedBy(e1,e2)
+Comment:
+
+28	"<e1>Temperature controlled capabilities</e1> is executed by <e2>IATA Ground Handling agents</e2>."
+IsExecutedBy(e1,e2)
+Comment:
+
+29	"The new site established at <e1>Dublin Airport</e1> is <e2>Cargo Facts Asia</e2> that is approved by the Health Products Regulatory Authority (HPRA) and represents an important extension of the company's global pharma supply chain."
+IsLocatedAt(e2,e1)
+Comment:
+
+30	"The company has 130 employees and is specialised in the export of flowers and vegetables and is located at <e1>Jomo Kenyatta International Airport</e1> in <e2>Nairobi</e2>."
+IsLocatedIn(e1,e2)
+Comment:
+
+31	"FedEx Paks cannot be used as outer packaging for lithium batteries, however, <e1>FedEx branded boxes</e1> or tubes may be used as outer packaging for <e2>lithium batteries</e2> prepared under Section II of the relevant packing instruction of the IATA DG Regulations."
+IsPackedIn(e2,e1)
+Comment: 
+
+32	"The vast majority of perishables are imported via <e1>Brussels Airport</e1> where <e2>Adelantex</e2> operates a warehouse directly on the tarmac with 1,600 sq m of cold storage."
+PartOf(e2,e1)
+Comment:
+
+33	"In order to improve <e1>pharmaceutical shipments</e1>, <e2>Singapore Airlines</e2> (SIA) Cargo and Air France KLM Cargo recently signed leases with SkyCell earlier this year."
+IsShippedBy(e1,e2)
+Comment:
+
+34	"For managing and processing <e1>fruits</e1> products and mail for express specialist SoDExI the <e2>warehouse</e2> will be used."
+IsStoredAt(e1,e2)
+Comment:
+
+35	"Eight <e1>refrigerated rooms</e1> of different sizes offer storage of <e2>pharmaceutical products</e2> at temperatures ranging from -18 C and 2-8 C to 15-25 C for storing."
+IsStoredIn(e2,e1)
+Comment:
+
+36	"<e1>Dangerous goods</e1> can now be transported worldwide on passenger and <e2>cargo aircrafts</e2> operated by Lufthansa, Lufthansa Cargo, Austrian Airlines and Brussels Airlines from a total of ten markets."
+IsTransportedBy(e1,e2)
+Comment: 
+
+37	"<e1>Fischer Road Cargo</e1> has renewed its <e2>road</e2> feeder service contract with Jan de Rijk Logistics covering Scandinavia."
+OperatesOn(e1,e2)
+Comment:
+
+38	"UPS helps <e1>dangerous goods</e1> shipment by packaging, <e2>marking labeling</e2> and documentation."
+RequiresCapability(e1,e2)
+Comment:
+
+39	"<e1>Cargologic</e1> has been created to ensure the airline meets its quality and service priorities for <e2>time and temperature-sensitive products</e2>, live animals, off-size & heavy cargoes, e-commerce shipments and other commodities requiring extra attention and the alignment of all operational procedures."
+RequiresSolution(e2,e1)
+Comment:
+
+40	"<e1>AirBridgeCargo Airlines</e1> (ABC) and Sky Fresh have inked a deal on digital procedures for the transportation of <e2>gold</e2>."
+Ships(e1,e2)
+Comment:
+
+41	"<e1>Delta airlines</e1>, has signed an agreement with Trinkaus-Solutions to use <e2>Airbus A330 MRTT</e2>."
+UsesVehicle(e1,e2)
+Comment:
+
+42	"The SCMP aims to increase efficiencies at <e1>Schiphol</e1> through increased data sharing and includes initiatives such as the Holland Flower Alliance <e2>Data Sharing</e2> Working Group, which piloted the scheme."
+Other
+Comment:
+
+43	"The <e1>portal</e1> also ensures that only <e2>authorised parties</e2> have access to sensitive data, increasing trust and cooperation, and encouraging further collaboration towards common goals, said Koos van der Meij, project manager, Information Sharing Working Group."
+Other
+Comment:
+
+44	"Products’ transportation and the <e1>bill of lading</e1> are arranged and coordinated by <e2>ACS</e2>."
+Arranges(e2,e1)
+Comment:
+
+45	"Christopher Day, director of Business Development & Innovation at Sonoco ThermoSafe said: As always, our focus is to make it as easy as possible for <e1>DHL Logistics</e1> and forwarders to directly lease <e2>PharmaPort 360s</e2> from the leading airlines around the globe."
+Books(e1,e2)
+Comment:
+
+46	"Quehenberger Logistics linkes <e1>supply chain</e1> and <e2>reliability</e2>."
+CanBeCombinedWith(e2,e1)
+Comment:
+
+47	"<e1>BCR Australia Pty Ltd</e1> safeguards the efficacy of vita pharmaceuticals throughout the transportation chain, and keeps the cargo within a temperature range of 2 and 8 degrees Celsius or <e2>15 to 25 degrees</e2>."
+ChoosesBookedTemperatureRang(e1,e2)
+Comment: 
+
+48	"<e1>North American Airlines</e1> had also carries its pharma cargoes into <e2>dry bulk</e2>"
+ChoosesPackaging(e1,e2)
+Comment:
+
+49	"Improvements in meteorological forecasting have opened a critical window for <e1>supply chains</e1> to mitigate risks posed by weather phenomena including cyclones and <e2>hurricanes</e2>."
+Decreses(e1,e2)
+Comment:
+
+50	"Moran Transportation Corporation provides a <e1>designated label</e1> for affixing on the <e2>fruit pouches</e2>."
+Designate(e1,e2)
+Comment:
+
+51	"<e1>247GT</e1> is UK based company serving <e2>planning period</e2> and handling the goods."
+Executes(e1,e2)
+Comment:
+
+52	"<e1>CEIV pharma certificate</e1> was  awarded to <e2>Turkish hub</e2> at Istanbul."
+HasCertification(e2,e1)
+Comment:
+
+53	"The IATA Temperature Control Regulations (TCR) addresses transporting <e1>temperature sensitive</e1> <e2>healthcare products</e2> identified by the industry."
+HasCharacteristics(e2,e1)
+Comment:
+
+54	"<e1>Gold</e1> as a <e2>vulnerable shipments</e2> can be handled by Lufthansa Cargo, the world's first electronic Dangerous Goods Declaration (eDGD) shipment using Dakosy's INFr8 shipping portal."
+HasClass(e1,e2)
+Comment:
+
+55	"Singapore Airlines inks three-year deal with SkyCell for handling <e1>pharma cargo</e1> such as <e2>drugs</e2>."
+HasCommodityType(e2,e1)
+Comment:
+
+56	"A shipment from healthcare company Abbott based in Wiesbaden was flown on board cargo <e1>flight LH8222</e1> from Frankfurt to <e2>Mexico City</e2> last Thursday."
+HasDestination(e1,e2)
+Comment:
+
+57	"At <e1>Mondays</e1>, the <e2>Swiss WorldCargo</e2> operates three daily flights from Zurich (ZRH) and Geneva (GVA) to JFK."
+HasOperatingDay(e2,e1)
+Comment:
+
+58	"A shipment from healthcare company Abbott based in Wiesbaden was flown on board cargo flight <e1>LH8222</e1> from <e2>Frankfurt</e2> to Mexico City last Thursday."
+HasOrigin(e1,e2)
+Comment:
+
+59	"In order to grow its dedicated <e1>road-haul</e1> pharma network in Belgium and Luxembourg, earlier this week, K+N revealed that its <e2>booking platform</e2> has invested in 50 temperature-controlled trailers."
+HasRoute(e2,e1)
+Comment:
+
+60	"That deal came two years after Panalpina increased its presence in Kenyan flower logistics by acquiring perishables specialist Airflo, Kenya's second largest airfreight forwarder, and only two weeks after <e1>Panalpina</e1> formally announced the launch of its <e2>global Perishables Network</e2>."
+HasSolution(e1,e2)
+Comment: 
+
+61	"The new <e1>temperature-controlled packaging</e1> serves customers with medical products requiring to be kept within a constant temperature range of <e2>15-25</e2> degrees Celsius."
+HasTemperatureRange(e1,e2)
+Comment:
+
+62	"<e1>DB Schenker</e1> books a train, <e2>ship</e2> or airplane."
+Books(e1,e2)
+Comment:
+
+63	"<e1>Qatar Airways Cargo</e1> has enhanced its pharma services by signing an agreement with <e2>FAIR Link</e2>, freight forwarders to use its Opticooler range of containers."
+Hires(e1,e2)
+Comment: 
+
+64	"Switzerland-based K+N adds more than 150,000 tons of annual <e1>perishables traffic</e1> to its network and further strengthens its position in providing end-to-end international and domestic <e2>fresh chain solutions</e2>."
+IncludesCapability(e2,e1)
+Comment: 
+
+65	"The carrier need to train a dedicated team to preserve the integrity of the cold chain and products due to the <e1>dangers of the shipping</e1> during the <e2>hot weather</e2> at Istanbul Ataturck airport."
+Increases(e2,e1)
+Comment:
+
+66	"Even the transport on the tarmac is included in this <e1>coolchain</e1> with the deployment of the Airside Pharma Transporters, making <e2>Abu Dhabi Airport</e2> the only fully integrated airport pharma platform."
+IsAvailableAt(e1,e2)
+Comment:
+
+67	"<e1>AirBridgeCargo Airlines</e1> (ABC) has completed a multi-modal shipment trial for DHL Global Forwarding to deliver healthcare products from Moscow to Miami using an <e2>RKN active cargo container</e2> in accordance with Good Distribution Practice (GDP) cool chain standards."
+IsChosenBy(e2,e1)
+Comment:
+
+68	"According to Schiphol, <e1>Flower shipment data</e1>, comprising number of boxes, flower type and number of flowers and stems in each box, will be linked to the Air Waybill numbers by the new portal, which will subsequently generate a <e2>unique GLN code</e2> that would offer all users an access to the overall data stored in one place."
+IsDesignatedBy(e1,e2)
+Comment:
+
+69	"<e1>KLM Cargo</e1> operates transportation of pharmaceuticals and <e2>healthcare products</e2>."
+IsExecutedBy(e2,e1)
+Comment:
+
+70	"<e1>American Airlines</e1> picks iCargo for its web-based cargo management system in <e2>California</e2>."
+IsLocatedAt(e1,e2)
+Comment: 
+
+71	"The company said that the tracking app will be available at AISATS Air Freight Terminal and at AISATS Coolport, located at <e1>Kempegowda International Airport (KIA)</e1>, <e2>Bengaluru</e2>, a city known for its high tech industry."
+IsLocatedIn(e1,e2)
+Comment:
+
+72	"<e1>Dry ice</e1> is generally the best choice when shipping <e2>frozen items</e2>."
+IsPackedIn(e2,e1)
+Comment:
+
+73	"<e1>Pharma services</e1> of <e2>Qatar Airways Cargo</e2> is enhanced by signing an agreement with DoKaSch Temperature Solutions to use its Opticooler range of containers."
+OfferSolution(e2,e1)
+Comment:
+
+74	"<e1>Brussels Airport</e1> was the first airport in the world to be awarded IATA CEIV Pharma certification and has developed products for the pharmaceutical industry such as the <e2>Airside Pharma Transporter</e2> to move cargo on the tarmac."
+PartOf(e2,e1)
+Comment:
+
+75	"<e1>TDWC Dubai World Central Airport</e1> has been playing an increasing role in the transportation of temperature-sensitive cargo, Including <e2>pharmaceutical products</e2>, said Bernd Struck, senior vice president of UAE cargo and DWC airline services at dnata."
+IsShippedBy(e2,e1)
+Comment:
+
+76	"The 25,000 square metre <e1>warehouse</e1> will be equipped with an automated Material Handling System (MHS) for storing <e2>perishable foods</e2>."
+IsStoredAt(e2,e1)
+Comment:
+
+77	"Emirates SkyCargo incorporates <e1>temperature controlled service</e1> for <e2>loose pharma shipments</e2> storage, which can accommodate 24 PMCs in 2-8C or 15-25C temperature ranges, as well as multiple charging points for active containers."
+IsStoredIn(e2,e1)
+Comment:
+
+78	"Schuler explained that 40% of <e1>seafood</e1> carried around the world needs <e2>refrigerated transportation</e2> and 20% of food loss is caused by a breakdown in the cool chain."
+IsTransportedBy(e1,e2)
+Comment:
+
+79	"<e1>AirBridgeCargo</e1> (ABC) Airlines support the growing volumes of <e2>temperature-controlled healthcare</e2> and life science products being carried by both airlines."
+OffersCapabilities(e1,e2)
+Comment:
+
+80	"<e1>AirBridgeCargo</e1> (ABC) Airlines has further enhanced pharma services by gaining Envirotainer QEP accreditation at its global hub at <e2>Moscow Sheremetyevo Airport</e2> and in Dallas."
+OperatesAt(e1,e2)
+Comment:
+
+81	"Recently at ANA's largest cargo operation, at <e1>Narita International Airport</e1> in Tokyo the <e2>Nippon Cargo airline</e2> has achieved the accreditation."
+OperatesAt(e2,e1)
+Comment:
+
+82	"<e1>IB Transport</e1> is a logistics company, which operates dozens of trucks all across different <e2>Europe roads</e2>."
+OperatesOn(e1,e2)
+Comment: 
+
+83	"AirBridgeCargo has created Off-size and <e1>heavy cargo</e1> facility for carrying <e2>oversized goods</e2>."
+RequiresCapability(e2,e1)
+Comment:
+
+84	"Singapore Airlines (SIA) has launched a <e1>THRUCOOL</e1> product to transport high-value, time-sensitive and temperature-controlled pharma and <e2>healthcare shipments</e2>."
+RequiresSolution(e2,e1)
+Comment:
+
+85	"Marken gains Brazilian approval for <e1>pharma shipments</e1> of <e2>UPS Airline</e2>."
+Ships(e2,e1)
+Comment: 
+
+86	"At the same time, it is 80% lighter than the conventional wood it replaces, thus allowing more payload and a lower fuel consumption of <e1>Cargolux's</e1> aircraft, which directly translates to lower <e2>aircraft</e2> engine emissions."
+UsesVehicle(e1,e2)
+Comment: 
+
+87	"The <e1>temperature</e1> and time-critical <e2>consignments</e2> are the last cargoes prepared for loading and the first ones loaded into the aircraft in order to minimise their exposure to outer environment."
+Other
+Comment:
+
+88	"The <e1>Free On Board</e1> (FOB) of the shipments, is organized by <e2>Panalpina</e2> based on the user requirements they request from their shippers; therefore, shipper experts won’t be consulted."
+Arranges(e2,e1)
+Comment:
+
+89	"The third phase of the CBSA's Advance Commercial Information program (ACI) eManifest makes it compulsory for <e1>Panalpina Inc</e1> to provide advance <e2>electronic transmission of customs</e2> and clearance."
+Books(e1,e2)
+Comment:
+
+90	"The move will also significantly expand its <e1>perishables offering</e1> into <e2>delivery time</e2>."
+CanBeCombinedWith(e1,e2)
+Comment: 
+
+91	"At Istanbul Ataturk, <e1>Turkish Cargo</e1> has a 3,000 square metre special storage areas covering four different temperature ranges (from <e2>-20 to +25 C</e2>) in an indoor area of 43,000 square metre area, across a total area of 71,000 square metres."
+ChoosesBookedTemperatureRang(e1,e2)
+Comment:
+
+92	"<e1>IAG Cargo</e1>, the freight operations wing of the joint Anglo-Spanish carrier enterprise, has provided a <e2>global container</e2> with thermal packaging provider va-Q-tec."
+ChoosesPackaging(e1,e2)
+Comment:
+
+93	"An increasing transparency and <e1>reliability</e1> will decrease the overall <e2>supply chain costs</e2> in the future."
+Decreses(e1,e2)
+Comment:
+
+94	"All <e1>pharmaceutical goods</e1> are labeled with the standard <e2>PIL code</e2>, pill identifier."
+Designate(e1,e2)
+Comment:
+
+95	"<e1>IATA</e1> receives the cargo from forwarders, build up unit load devices and <e2>load or unload the airplane</e2>, break down unit load devices and ensure the transfer of the incoming cargo to the forwarder."
+Executes(e1,e2)
+Comment:
+
+96	"<e1>China Airlines</e1> has gained the International Air Transport Association's Center of Excellence for Independent Validators in Pharmaceutical Logistics (<e2>CEIV Pharma</e2>) certificate for the airline itself and its cargo operations."
+HasCertification(e1,e2)
+Comment:
+
+97	"Food, pharmaceuticals and <e1>flowers</e1> are the chief products that make up the cold chain, known as the supply chain of time-sensitive and <e2>perishable products</e2>."
+HasCharacteristics(e1,e2)
+Comment:
+
+98	"The first shipment was from healthcare company Abbott based in Wiesbaden, and was flown on board flight <e1>LH8222</e1> to Mexico City on <e2>Thursday</e2> 13 September."
+HasOperatingDay(e1,e2)
+Comment:
+
+99	"The <e1>hazardous materials</e1> category encompasses all <e2>Magnets</e2>, lithium ion batteries and electronic devices."
+HasClass(e2,e1)
+Comment:
+
+100	"The miscellaneous <e1>hazardous</e1> materials category encompasses all <e2>Magnets</e2>, lithium ion batteries and electronic devices."
+HasClass(e2,e1)
+Comment:
+
+101	"Taking its range of solutions for <e1>high-value cargo</e1> shipment, Aircargo has provided SkyCell, for transferring of <e2>precious stones</e2> and jewellery."
+HasCommodityType(e2,e1)
+Comment:
+
+102	"In October, ABC announced new <e1>ABC freighter flights</e1> from Amsterdam Airport Schiphol to <e2>Belgium Airport</e2>."
+HasDestination(e1,e2)
+Comment:
+
+103	"<e1>DWC airline</e1> said that the two acquisitions further strengthens its position in providing end-to-end international and <e2>domestic fresh chain solutions</e2>."
+OfferSolution(e1,e2)
+Comment:
+
+104	"<e1>Amsterdam</e1> shipment flight <e2>CK205</e2> performs on Wednesday morning."
+HasOrigin(e2,e1)
+Comment:
+
+105	"The new <e1>booking system</e1> makes Ireland the 43rd country in which the integrator has established a Life Sciences Center of Excellence, offering full access and integration with DHL's temperature controlled transport services by road, <e2>air</e2>, ocean."
+HasRoute(e1,e2)
+Comment: 
+
+106	"<e1>Cargo Community systems</e1>, have pioneered an initiative towards creating a <e2>digital air corridor</e2> between India and the Netherlands."
+HasSolution(e1,e2)
+Comment:
+
+107	"<e1>Temperature-controlled packaging</e1> will enable to store up to 2,100 pallets of medical products within the <e2>15-25</e2> degree temperature range."
+HasTemperatureRange(e1,e2)
+Comment:
+
+108	"IATA has awarded <e1>Swissport cargo services</e1> at Basel's EuroAirport with the <e2>CEIV pharma certificate</e2> for pharmaceutical logistics."
+HasCertification(e1,e2)
+Comment: 
+
+109	"<e1>Wisskirchen Handling Services</e1> start using logistics IT provider topsystem's <e2>Electronic Cargo Handling & Operations System</e2> (ECHOS) at its multifunctional cargo centre at Cologne Bonn Airport from June 2018."
+Hires(e1,e2)
+Comment: 
+
+110	"The superior performance of the CSafe RKN can be attributed to the thermal capabilities of its <e1>ThermoCor insulation</e1>, which provides <e2>extended operating efficiencies</e2>, as well as unit's proprietary air movement, heating and cooling technologies."
+IncludesCapability(e1,e2)
+Comment: 
+
+111	"The <e1>warm container</e1> could strongly effect <e2>temperature-triggered threats</e2> for perishable goods."
+Increases(e1,e2)
+Comment:
+
+112	"Operating the largest GDP certified multi-airport hub in the world, Emirates SkyCargo offers round-the-year secure <e1>transportation of pharmaceutical cargo</e1> at its hub in <e2>Dubai Airport</e2>."
+IsAvailableAt(e1,e2)
+Comment:
+
+113	"The <e1>WMX</e1> service includes dry ice supplies and <e2>temperature-controlled packaging</e2> fulfillment, online tools for placing bookings and ordering supplies, and a web-based interface Express Logistics Platform (ELP) that connects sites."
+IsChosenBy(e2,e1)
+Comment:
+
+114	"As an industry leader, the cargo carrier ensures the fastest transfer at Doha through its unique <e1>SPH code</e1> assigned to the <e2>temperature-sensitive products</e2>."
+IsDesignatedBy(e2,e1)
+Comment: 
+
+115	"Grouping shipments onto certain flights results in increased focus on the <e1>transportation of dangerous goods</e1> at <e2>North American Airlines</e2>."
+IsExecutedBy(e1,e2)
+Comment:
+
+116	"That deal came two years after Panalpina increased its presence in Kenyan flower logistics by acquiring perishables specialist Airflo, Kenya's second largest airfreight forwarder, and only two weeks after <e1>Panalpina</e1> formally announced the launch of its <e2>global Perishables Network</e2>."
+HasSolution(e1,e2)
+Comment: 
+
+117	"New York's first <e1>GDP-compliant airline</e1> facility is located at <e2>Swiss WorldCargo's warehouse</e2>."
+IsLocatedAt(e1,e2)
+Comment:
+
+118	"<e1>France</e1> is the second largest pharma exporter in Europe and no airport in the world has a better quality track record in temperature-sensitive transport of pharmaceutical products than <e2>Charles de Gaulle Airport</e2>."
+IsLocatedIn(e2,e1)
+Comment:
+
+119	"Pharmaceutical companies have been utilizing <e1>gel packs</e1>  to distribute <e2>pharmaceutical products</e2>."
+IsPackedIn(e2,e1)
+Comment:
+
+120	"Deployment of the <e1>Airside Pharma Transporters</e1>, made <e2>Brussels Airport</e2> the only fully integrated airport for pharma platform."
+PartOf(e2,e1)
+Comment: 
+
+121	"The collaborative effort makes <e1>Lufthansa</e1> the first airline to embrace disruptive tech start-up culture for <e2>hazardous cargo</e2> management and perishable cargo transportation."
+IsShippedBy(e2,e1)
+Comment:
+
+122	"In Weiterstadt, 4,500 sq m of <e1>temperature-controlled container space</e1> is dedicated to <e2>healthcare cargoes</e2>, another 4,600 sq m for multi-purpose use and 620 sq m is for office space."
+IsStoredAt(e2,e1)
+Comment:
+
+123	"In addition to various value-added and distribution services, <e1>dangerous goods storage</e1> is provided for <e2>hazardous material</e2> and offers direct connections to local cargo hubs DWC and Jebel Ali Port."
+IsStoredIn(e2,e1)
+Comment:
+
+124	"TIn Singapore, a leading biomedical hub in Asia, more than 75 percent of the total value of <e1>pharmaceutical products</e1> are forwarded via <e2>airfreight</e2>."
+IsTransportedBy(e1,e2)
+Comment:
+
+125	"The <e1>German airline</e1> is equipped with electric, <e2>battery-powered cooling compressors</e2> and heaters and require no dry ice."
+OffersCapabilities(e1,e2)
+Comment: 
+
+126	"<e1>Finnair Cargo</e1> has started construction work on its 80 million euro Cool Nordic Cargo terminal at <e2>Helsinki Airport</e2>."
+OperatesAt(e1,e2)
+Comment:
+
+127	"<e1>ACE Logistics</e1> offers daily scheduled freight services of groupage cargo (packages, pallets) between Estonia and Latvia via <e2>ground</e2>."
+OperatesOn(e1,e2)
+Comment: 
+
+128	"In today's modern world, carriage of <e1>live animals</e1> by <e2>air</e2> is considered the most humane and expedient method of transportation over long distances."
+RequiresCapability(e1,e2)
+Comment:
+
+129	"Singapore Airlines offers <e1>THRUCOOL</e1> for <e2>pharma shipments</e2>."
+RequiresSolution(e2,e1)
+Comment:
+
+130	"<e1>Lufthansa Cargo's IT systems</e1> and processes can now deal with paperless <e2>dangerous goods shipments</e2>, making the airline the first and so far only airline to support the eDGD standard."
+Ships(e1,e2)
+Comment:
+
+131	"SATS also reconfigured its import warehouse to cut processing time by modifying <e1>forklift trucks</e1> on the <e2>bridges</e2> to achieve a 63 per cent reduction in the man hours needed to break down pallets and containers."
+UsesVehicle(e2,e1)
+Comment:
+
+132	"He was previously responsible for various supply chain optimisation projects at <e1>Ground Handling Services Fraport</e1>, and he is also the head of the <e2>Competence Team Pharma</e2> of the Air Cargo Community Frankfurt."
+Other
+Comment:
+
+133	"This is the sprawling <e1>complex</e1> that is Peru’s largest <e2>producer</e2> of silver."
+Other
+Comment:
+
+134	"Using <e1>FAIR Link</e1> can handle <e2>transportation documents</e2> for deliveries, resulting in improved documentation for handling agents, who no longer need to re-enter duplicate data thus avoiding mistakes and saving time."
+Arranges(e1,e2)
+Comment:
+
+135	"<e1>Service</e1> can be order by <e2>Pharma shippers</e2> and forwarders directly through the airline."
+Books(e2,e1)
+Comment:
+
+136	"Panalpina also bought perishables forwarder <e1>Airflo</e1> in 2016 and connected it to its <e2>smart ICT</e2> solutions."
+CanBeCombinedWith(e1,e2)
+Comment:
+
+137	"<e1>Tax Air Freight Inc</e1> offering storage at temperatures ranging from <e2>-18C and 2-8C to 15-25C</e2> for end, with adjustable temperature settings depending on requirements and volumes."
+ChoosesBookedTemperatureRang(e1,e2)
+Comment:
+
+138	"<e1>Luxembourg-based Cargolux</e1> uses PharmaPort container an <e2>active bulk shipping container</e2> with data-collection enablement across its international network."
+ChoosesPackaging(e1,e2)
+Comment:
+
+139	"<e1>Smart packaging systems</e1> capable of handling package-level freight was opened by <e2>Air France-KLM</e2>."
+ChoosesPackaging(e2,e1)
+Comment:
+
+140	"The <e1>leasing solution</e1> provided by the ABC and DGF team covered delivery and guaranteed customs clearance for the customer, and also ensured a minimum transit time and eliminated the <e2>temperature risk</e2>."
+Decreses(e1,e2)
+Comment:
+
+141	"In order to ship dangerous goods (eg, lithium batteries or <e1>battery powered devices</e1>, aerosols, oxygen cylinders) or flammable liquids (eg, perfumery products or alcoholic beverages) are ciphered by <e2>EAW & EAP</e2>."
+Designate(e2,e1)
+Comment:
+
+142	"<e1>Panalpina</e1> wants to build its <e2>end-to-end perishables capabilities</e2> at major gateways such as Frankfurt."
+Executes(e1,e2)
+Comment:
+
+143	"<e1>LUG aircargo</e1> handling has increased the capacity of its Health Care Center (HCC) to 650 square metres as it undergoes <e2>IATA CEIV Pharma</e2> certification."
+HasCertification(e1,e2)
+Comment:
+
+144	"<e1>Fruits</e1>, flowers, and vegetables are <e2>perishable</e2> goods."
+HasCharacteristics(e1,e2)
+Comment: 
+
+145	"<e1>Dangerous goods</e1> such as <e2>Flammable Liquids</e2> can now be transported worldwide on passenger and cargo aircrafts operated by Lufthansa, Lufthansa Cargo, Austrian Airlines and Brussels Airlines from a total of ten markets."
+HasClass(e2,e1)
+Comment: 
+
+146	"Singapore Airlines (SIA) has launched a Thrucool product to transport <e1>perishable shipments</e1> and is able to carry pharmaceuticals, seafood, dairy, plants, meat, fruits and <e2>vegetables</e2>."
+HasCommodityType(e2,e1)
+Comment: 
+
+147	"Handling special cargo to the <e1>Netherlands</e1> is done via <e2>UPS Airlines RU128</e2> that connects sellers and buyers for any specific commodity."
+HasDestination(e2,e1)
+Comment:
+
+148	"A shipment from healthcare company Abbott based in Wiesbaden was flown on board cargo flight <e1>LH8222</e1> from France to Brazil last <e2>Friday</e2>."
+HasOperatingDay(e1,e2)
+Comment:
+
+149	"The <e1>cargo transition flight</e1> will departure at BRUcargo's Air Cargo Academy in <e2>Brussels</e2> from Wednesday 30 to Thursday 31 January."
+HasOrigin(e1,e2)
+Comment:
+
+150	"Ireland global pharma company has some <e1>reservations</e1> for shipping the cargoes through special <e2>flights</e2>."
+HasRoute(e1,e2)
+Comment: 
+
+151	"<e1>perishables network</e1> of <e2>K+N service</e2> with US and Kenyan acquisitions was expanded."
+HasSolution(e2,e1)
+Comment: 
+
+152	"Two cold storages: <e1>2-8 degrees Celsius</e1> and 18-25 degrees Celsius are considered for the <e2>warehouse</e2>."
+HasTemperatureRange(e2,e1)
+Comment:
+
+153	"Kuehne + Nagel (K+N) has opened a new <e1>KN flight hub</e1> in <e2>Singapore</e2> to consolidate its activities for the sector on the island."
+HasTransitIn(e1,e2)
+Comment:
+
+154	"Additionally, <e1>Pelican BioThermal</e1> has announced recruiting of <e2>Amsterdam Airport Schiphol</e2> to further grow its international footprint."
+Hires(e1,e2)
+Comment: 
+
+155	"The <e1>pharma services</e1> maintain a consistent <e2>user-selected payload set-point</e2> across ambient temperatures as extreme as -30 degrees Celsius up to 49 degrees Celsius."
+IncludesCapability(e1,e2)
+Comment:
+
+156	"Inappropriate packaging of the cargoes can result in <e1>high environmental degree</e1> for the shipments and is considered as a <e2>temperature danger</e2>."
+Increases(e1,e2)
+Comment:
+
+157	"Cargo handler WFS has new <e1>pharma centre</e1> at <e2>Paris CDG Airport</e2>."
+IsAvailableAt(e1,e2)
+Comment:
+
+158	"Active and <e1>passive temperature-controlled</e1> packaging solutions for pharmaceutical products offered by <e2>CSafe Global</e2>."
+IsChosenBy(e1,e2)
+Comment:
+
+159	"AirBridgeCargo's control tower team has been created special handling codes <e1>unique key</e1> to ensure the airline meets its quality and service priorities for time-and temperature-sensitive products, live animals, off-size and <e2>heavy cargoes</e2>, e-commerce shipments and other commodities requiring extra attention."
+IsDesignatedBy(e2,e1)
+Comment:
+
+160	"Lately, Swiss-based manufacturer of temperature-controlled containers <e1>SkyCell</e1> and French airline group, Air France KLM Martinair Cargo announced a global collaboration to work more closely together on existing and future business in <e2>logistics of pharmaceuticals</e2>."
+IsExecutedBy(e2,e1)
+Comment:
+
+161	"<e1>DB Schenker</e1> has started work on its second logistics center in Dubai, located next to <e2>Dubai World Central airport</e2>."
+IsLocatedAt(e1,e2)
+Comment:
+
+162	"Located at <e1>Amsterdam Airport Schiphol</e1> in <e2>Amsterdam</e2> with offices, a cold storage facility and an experienced team, the three companies handle around 20,000 tonnes of perishables airfreight per year."
+IsLocatedIn(e1,e2)
+Comment:
+
+163	"<e1>Gold bars</e1> should be packed in wood, plastic or <e2>carbon-fibre boxes</e2> and securely strapped to each pallet whilst in transit."
+IsPackedIn(e1,e2)
+Comment: 
+
+164	"The <e1>Turkish carrier</e1> opened a new cargo facility in January 2015 at <e2>Istanbul Ataturk Airport</e2>, which has an annual tonnage of 12 million tonnes and is now handling an increasing amount of pharma through specialist temperature-controlled facilities."
+PartOf(e1,e2)
+Comment:
+
+165	"<e1>American Airlines</e1> and US Airways have completed their merger and will become one air freight organisation from October 20 to carry <e2>flowers</e2> and live animals."
+IsShippedBy(e2,e1)
+Comment:
+
+166	"Panalpina Brazil has made a significant investment in its <e1>warehouse</e1> in Cajamar, Sao Paulo, as part of its strategy to improve its <e2>cold chain logistics</e2> in the country."
+IsStoredAt(e2,e1)
+Comment: 
+
+167	"There's no doubt that PACTL will assist AirBridgeCargo to coordinate with all parties for <e1>TTSP shipment</e1> handling in  <e2>temperature-sensitive airfreight storage</e2>."
+IsStoredIn(e1,e2)
+Comment: 
+
+168	"Using its <e1>Boeing 777 freighter aircraft</e1>, Emirates SkyCargo has transported over 25 tonnes of <e2>vaccines</e2> by Pharma plus from Milan to BH airport."
+IsTransportedBy(e2,e1)
+Comment: 
+
+169	"<e1>DWC airline</e1> has been playing an increasing role in <e2>live animal services</e2>."
+OffersCapabilities(e1,e2)
+Comment: 
+
+170	"<e1>Air India Cargo</e1> has commenced trial operations of its integrated on-airport perishable cargo handling centre at <e2>Kempegowda International Airport</e2> in Bengaluru, which is expected to be operational by the end of 2016."
+OperatesAt(e1,e2)
+Comment:
+
+171	"<e1>Quicargo</e1>, online logistics platform for <e2>road transport</e2> is a cargo platform for trucks."
+OperatesOn(e1,e2)
+Comment: 
+
+172	"IATA emloyed <e1>high speed vehicles</e1> for <e2>perishables handling</e2> in order to minimize delays."
+RequiresCapability(e2,e1)
+Comment:
+
+173	"APL's new <e1>Eagle Express X</e1> service guarantees carrying <e2>perishable foods</e2> ontime."
+RequiresSolution(e2,e1)
+Comment:
+
+174	"<e1>Amerijet</e1> becomes first all-cargo airline in the US to transport flowers, vegetables, <e2>seafood</e2>, chilled meat or flowers, and animals."
+Ships(e1,e2)
+Comment: 
+
+175	"Featuring two areas for the handling of pharmaceutical products, <e1>Australia's Highway 1</e1> is equipped with eight dedicated <e2>truck docks</e2>, allowing for a fully temperature-controlled transfer of containers and pallets to the warehouse by truck dock, regardless of the outside temperature."
+UsesVehicle(e1,e2)
+Comment: 
+
+176	"The next step is to present the data to the <e1>end customer</e1> in a user-friendly way; <e2>Holland Flower Alliance partners</e2> are working on this, alongside forwarders Kuehne + Nagel and Panalpina."
+Other
+Comment:
+
+177	"<e1>PACTL</e1> makes <e2>cargo documents</e2> available to consignee or agent."
+Arranges(e1,e2)
+Comment:
+
+178	"French freight forwarder <e1>Geodis</e1> has begun offering online <e2>shipper's letter</e2> and bookings for air and ocean commodities via its Intelligent Real-time Information System IRIS."
+Arranges(e1,e2)
+Comment:
+
+179	"<e1>DB Schenker Logistics</e1> can order the <e2>Cargo Airlines</e2> directly through the airline."
+Books(e1,e2)
+Comment:
+
+180	"Global Trade Management integrates <e1>cold storage</e1> for forwarding <e2>frozen foods</e2>."
+CanBeCombinedWith(e2,e1)
+Comment: 
+
+181	"<e1>Qantas Freight International</e1> customers who receive a shipment of fresh-cut roses are able to chooses booked temperature Rang from <e2>-15 to 8</e2>."
+ChoosesBookedTemperatureRang(e1,e2)
+Comment:
+
+182	"The chance of <e1>transmission errors</e1> will be further lower using <e2>digitisation</e2> within BRUcargo and will help to drastically increase the speed."
+Decreses(e2,e1)
+Comment:
+
+183	"According to Schiphol, <e1>flower shipment data</e1>, comprising number of boxes, flower type and number of flowers and stems in each box, will be linked to the Air Waybill numbers by the new portal, which will subsequently generate a unique <e2>GLN</e2> code that would offer all users an access to the overall data stored in one place."
+Designate(e2,e1)
+Comment:
+
+184	"<e1>flight plan</e1> is prepared and handled by <e2>Swissport</e2>."
+Executes(e2,e1)
+Comment:
+
+185	"<e1>DHL Global Forwarding's airfreight station</e1> in Shanghai has been <e2>IATA CEIV Pharma</e2> certified, the first freight forwarder to receive certification in Asia."
+HasCertification(e1,e2)
+Comment:
+
+186	"<e1>Flower shipments</e1> on pilot flights from Nairobi to the Aalsmeer flower auction in the Netherlands have proven to be <e2>traceable</e2> individually and in real time throughout their journey."
+HasCharacteristics(e1,e2)
+Comment: 
+
+187	"The multi-client DC is equipped with state-of-the-art technology for storing <e1>temperature-sensitive healthcare products</e1> such as <e2>drugs</e2> and natural health products."
+HasCommodityType(e2,e1)
+Comment:
+
+188	"Cool Chain Association members have piloted a new <e1>Boeing 777-300ER</e1> to tackle food loss by sharing temperature data from perishable consignments moving from Latin America to the <e2>Middle East</e2>."
+HasDestination(e1,e2)
+Comment: 
+
+189	"The <e1>cargo transition flight</e1> will schedule at BRUcargo's Air Cargo Academy in Brussels from <e2>Wednesday 30 to Thursday</e2> 31 January."
+HasOperatingDay(e1,e2)
+Comment:
+
+190	"The carrier operates <e1>flight BF777</e1> per week from <e2>China</e2> to significant pharma destinations in Europe, Asia, and the United States, including Moscow, Chicago, Shanghai, and Singapore."
+HasOrigin(e1,e2)
+Comment: 
+
+191	"Using the <e1>Slot Booking application</e1>, we managed to do <e2>flight</e2> and route transportation, says Hossaine El Bouayadi, IT manager and business process development at LACHS."
+HasRoute(e1,e2)
+Comment:
+
+192	"The Kuehne + Nagel South and Central America cutting-edge facility will leverage the knowledge and experience of our specialised teams and enable <e1>Kuehne + Nagel</e1> to offer its unique <e2>pharma solutions</e2> to an extended customer base."
+HasSolution(e1,e2)
+Comment:
+
+193	"The unit's proprietary air movement, heating and cooling technologies allow the <e1>temperature-controlled container</e1> to maintain a consistent user-selected payload set-point across ambient temperatures as extreme as <e2>-30 degrees celsius up to 49 degrees celsius</e2>."
+HasTemperatureRange(e1,e2)
+Comment:
+
+194	"The partnership provides GDEX customers with access to <e1>AirAsia's</e1> extensive network of more than 5,000 weekly flights across <e2>Asia Pacific</e2>."
+HasTransitIn(e1,e2)
+Comment:
+
+195	"<e1>Italian carrier Alitalia</e1> has signed an agreement with the <e2>Middle East carrier</e2> to rent its passive containers."
+Hires(e1,e2)
+Comment: 
+
+196	"The company also now offers Pharma, for pharmaceutical products, Alive, for live animal transport, and <e1>Protect</e1>, for <e2>vulnerable cargo</e2>."
+IncludesCapability(e1,e2)
+Comment:
+
+197	"DHL Global Forwarding Russia supplied the teams covering delivery easing and guaranteed customs clearance for the customer as well as ensuring a minimum transit time and the elimination of <e1>temperature risk</e1> that rises under the influence of <e2>tarmac temperature</e2>. "
+Increases(e1,e2)
+Comment: 
+
+198	"The certification covers both airline operations as well as <e1>cargo handling</e1> and warehousing at its hub in <e2>Abu Dhabi International Airport</e2>."
+IsAvailableAt(e1,e2)
+Comment:
+
+199	"<e1>Luxembourg-based Cargolux</e1> chooses uniform thermal payload protection in a flexible, <e2>break-resistant gel pack</e2>."
+IsChosenBy(e2,e1)
+Comment: 
+
+200	"Dangerous goods can now be transported worldwide on passenger and cargo aircrafts operated by <e1>China Cargo Airline</e1> one of the largest air cargo operators at <e2>Shanghai Hongqiao</e2> and Pudong Airport."
+OperatesAt(e1,e2)
+Comment:
+
+201	"The platform, which is part of the <e1>airport's Smart Cargo Mainport Program</e1>, will generates a <e2>unique code</e2> for flowers to access the information through their internal systems."
+IsDesignatedBy(e2,e1)
+Comment:
+
+202	"As part of UK airline strategy to offers customers with wider choice of special cargo solutions, <e1>UK airline</e1> approves the <e2>shipment of temperature-sensitive life-enhancing healthcare products</e2>, Perishable goods, live animals and gold."
+IsExecutedBy(e2,e1)
+Comment: 
+
+203	"<e1>MNX Global Logistics</e1> has opened a pharma logistics facility in <e2>New York</e2>, located next to JFK International Airport."
+IsLocatedAt(e1,e2)
+Comment: 
+
+204	"The facility is located at <e1>Shanghai Pudong International Airport</e1> in <e2>China</e2> and FedEx says it applies cutting-edge technologies and innovation to enhance operational efficiency."
+IsLocatedIn(e1,e2)
+Comment:
+
+205	"Dry confectionery, fruit and <e1>vegetables products</e1>, additives, spices, dry medicines (drugs, bandages, cotton, etc) and medical products are packed by <e2>Corrugated fiberboard boxes</e2>."
+IsPackedIn(e1,e2)
+Comment:
+
+206	"<e1>AirBridgeCargo</e1> transfers the customer’s precious freight through the building’s <e2>tarmac dock</e2> into the hands of the cargo handling agent, who then loads it directly into the waiting cargo airplane."
+PartOf(e2,e1)
+Comment:
+
+207	"The <e1>France Airline</e1> now has access to the 24 7 service of Jettainer's own Cool Center of Excellence in Abu Dhabi, which is specifically responsible for managing <e2>temperature-controlled goods</e2>."
+IsShippedBy(e2,e1)
+Comment: 
+
+208	"The new 1,000-square-meter <e1>Life Science Competence Center</e1>, which came at a cost of 201 million, will serve as a hub for the storage of <e2>temperature-sensitive commodities</e2> handled within the company's Thermonet network."
+IsStoredAt(e2,e1)
+Comment:
+
+209	"On arrival at BH Airport, the <e1>vaccines</e1> were removed from the containers and transported to the <e2>temperature controlled storage</e2> areas of the airport."
+IsStoredIn(e1,e2)
+Comment:
+
+210	"K+N has made a major push to expand its <e1>cold-chain</e1> offerings for pharma products and perishables during 2017, and subsequently saw a strong first half with about 66,000 tonnes of <e2>airfreight</e2> transported."
+IsTransportedBy(e1,e2)
+Comment:
+
+211	"The <e1>Singapore Airlines</e1> (SIA) made a significant contribution to the establishment of the global Packaging handling and <e2>Container handling</e2>."
+OffersCapabilities(e1,e2)
+Comment:
+
+212	"In a class of <e1>flight carriers</e1> of the same name, the <e2>German aircraft carrier</e2> Graf Zeppelin was the lead ship ordered by the Kriegsmarine of Nazi Germany."
+OperatesOn(e2,e1)
+Comment: 
+
+213	"Etihad Logistics (EL) provide <e1>secure freight forwarding</e1> for handling, transportation, storage and delivery of the <e2>valuable goods</e2>."
+RequiresCapability(e2,e1)
+Comment:
+
+214	"For handling of <e1>perishables cargoes</e1> IATA launched <e2>CEIV-Fresh</e2>."
+RequiresSolution(e1,e2)
+Comment: 
+
+215	"<e1>Swiss International Airlines</e1> transport gold, banknotes, <e2>precious art pieces</e2> and jewelers."
+Ships(e1,e2)
+Comment:
+
+216	"Landside, the completed warehouse will feature 47 <e1>mobile crane</e1> loading bays in the <e2>B176 road</e2>."
+UsesVehicle(e2,e1)
+Comment:
+
+217	"Qatar Airways Cargo has signed an agreement with DoKaSch Temperature Solutions to offer the Frankfurt-based equipment specialist's Opticooler range of temperature-controlled <e1>containers</e1> for handling and transporting of <e2>pharma</e2> products."
+CanBeCombinedWith(e1,e2)
+Comment:
+
+218	"Air Cargo Community Frankfurt, executive at Fraport and vice chairwoman, Anke Giesen says with this new <e1>concept of reliability</e1> and speed, we are able to decrease the <e2>complexity of ordering</e2> processes by steering the flow of information of all participants digitally."
+Decreses(e1,e2)
+Comment:
+
+219	"Paris-based cargo handler <e1>Worldwide Flight Services</e1> (WFS) announced its plans to build a new <e2>pharmaceutical facility</e2> at Copenhagen Airport (CPH)"
+HasSolution(e1,e2)
+Comment:
+
+220	"The <e1>Turkish Freight forwarder</e1> was hired by <e2>Delta Cargo shipper</e2>."
+Hires(e2,e1)
+Comment:
+
+221	"British Airways, <e1>Iberia</e1> and Aer Lingus, said that following successful trials of its <e2>constant climate critical service</e2> across India, the UK and Europe, IAG Cargo is rolling out this new offering across all 109 Constant Climate enabled stations on its network."
+OfferSolution(e1,e2)
+Comment:
+
+222	"<e1>World Courier</e1> can book both <e2>containers</e2> and premium products on the system, make multiple bookings and manage all bookings even those made by phone online."
+Books(e1,e2)
+Comment:
+
+223	"The <e1>Swissport Pharma Center</e1> at <e2>Brussels Airport</e2> will play a key role in our growing global network of temperature-controlled warehouses."
+IsLocatedAt(e1,e2)
+Comment:
+
+224	"<e1>Swissport International</e1>, one of the leading cargo handling companies, yesterday announced the opening of its state-of-the-art Pharma Center for temperature-sensitive cargo shipments at <e2>Brussels Airport</e2>."
+IsLocatedAt(e1,e2)
+Comment: 
+
+225	"<e1>Temperature controlled compartments</e1> for transporting special cargoes is offered by <e2>China Southern airlines</e2>."
+OffersCapabilities(e2,e1)
+Comment: 
+
+226	"<e1>Lufthansa Cargo</e1> has stepped up its cooperation with digital booking platform <e2>cargo one</e2>, acquiring a minority share in the Berlin-based company."
+Hires(e1,e2)
+Comment:
+
+227	"<e1>Environmentalists</e1>, utilities, and green businesses are turning to behavioral <e2>economics</e2>."
+Other
+Comment:
+
+228	"Additionally, the <e1>president</e1> won the Democratic nomination with the <e2>help</e2> of the super delegates."
+Other
+Comment:
+
+229	"In a recent major move, <e1>Turkish cargo</e1> has obtained the <e2>Authorised Economic Operator certificate</e2>."
+HasCertification(e1,e2)
+Comment: 
+
+230	"The <e1>Cargo airline AirBridgeCargo</e1> (ABC) has Transit in Beijing Capital International Airport in <e2>Beijing</e2>, one of its six online gateways in the US."
+HasTransitIn(e1,e2)
+Comment:
+
