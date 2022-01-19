@@ -1,6 +1,6 @@
 # Relation Extraction for Special Cargo Domain
 
-The code is part of our paper ["Relation Representation Learning for Special Cargo Ontology"] (https://scholar.google.com/citations?user=DNUz3o4AAAAJ&hl=en&authuser=1) the we proposed an ontology
+The code is part of our paper ["Relation Representation Learning for Special Cargo Ontology"](https://scholar.google.com/citations?user=DNUz3o4AAAAJ&hl=en&authuser=1) the we proposed an ontology
 population pipeline for the special cargo domain, and as part of
 the ontology population task, we investigated how to build an
 efficient information extraction model from low-resource domains
