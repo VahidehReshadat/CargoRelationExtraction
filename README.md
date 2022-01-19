@@ -1,5 +1,20 @@
 # Relation Extraction for Special Cargo Domain
 
+The code is part of the we proposed an ontology
+population pipeline for the special cargo domain, and as part of
+the ontology population task, we investigated how to build an
+efficient information extraction model from low-resource domains
+based on available domain data for industry use cases. For this
+purpose, a model is designed for extracting and classifying
+instances of different relation types between each concept pair.
+The model is based on a relation representation learning approach
+built upon a Hierarchical Attention-based Multi-task architecture
+in the special cargo domain. The results of experiments show that
+the model could represent the complex semantic information of the
+domain, and tasks initialized with these representations achieve
+promising results.
+
+
 ## Overview
 A PyTorch implementation of the models 
 ## Requirements
