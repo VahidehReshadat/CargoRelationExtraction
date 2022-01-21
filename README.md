@@ -5,6 +5,14 @@ The model is a [BERT](https://arxiv.org/abs/1810.04805)-base model. BERT is a la
 
 The results of experiments show that the model could represent the complex semantic information of the special cargo domain, and tasks initialized with these representations achieve promising results.
 
+## Overview
+A PyTorch implementation of the models 
+## Requirements
+Requirements: Python (3.6+), PyTorch (1.2.0+), Spacy (2.1.8+)  
+
+Pre-trained BERT model of HuggingFace.co (https://huggingface.co)   
+Code structure adopted from:
+[BertRE](https://github.com/plkmo/BERT-Relation-Extraction) and [anago](https://github.com/huggingface/hmtl)
 
 ## Training 
 
@@ -12,7 +20,6 @@ In the training process, MTB exploits a pair of relation representations for eac
 
 
 <img src="https://github.com/VahidehReshadat/CargoRelationExtraction/blob/master/Bert_Imags/Presentation1-5.jpg" alt="overview of the training process with MTB" width="400"/>
-
 
 
 Using the MTB pre-train model on domain data, the relation extraction model is built. The architecture of relation statement classification using MTB is illustrated in figure below. Architecture of the special cargo relation classifier. As shown in the figure, the target entities are marked with special entity markers in the input. Then, the marked input text is fed into the BERT model, and the corresponding states of the beginning of the two entity markers are concatenated, and the relation representation is extracted. Target entities in the input (FAA and PharmaPort360) are represented using special markers showing the start ([E1] and [E2]) and the end ([/E1] and [/E2]) of each entity. 
@@ -23,12 +30,5 @@ The generated relation representation from the BERT transformer is fed into a fu
 <img src="https://github.com/VahidehReshadat/CargoRelationExtraction/blob/master/Bert_Imags/BERT Classifier.jpg" alt="overview of the training process with MTB" width="400"/>
 
 
-## Overview
-A PyTorch implementation of the models 
-## Requirements
-Requirements: Python (3.6+), PyTorch (1.2.0+), Spacy (2.1.8+)  
 
-Pre-trained BERT model of HuggingFace.co (https://huggingface.co)   
-Code structure adopted from:
-[BertRE](https://github.com/plkmo/BERT-Relation-Extraction) and [anago](https://github.com/huggingface/hmtl)
 
