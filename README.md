@@ -11,7 +11,7 @@ The results of experiments show that the model could represent the complex seman
 In the training process, MTB exploits a pair of relation representations for each pair of relation statements with the aim of learning an encoder that specifies whether or not two relation statements encode the similar relation using the following binary classifier. Therefore, given a pair of relation statements, MTB tries to learn an embedding model that their inner product is high when both contain the same entity pair and low when entity pairs are different. In the training setup, the loss of masked language models of BERT and MTB are minimized concurrently. We test various training data and BERT models for training the relation statement encoder in this architecture. The Figure below shows an overview of the training process in MTB. The figure depicts that two different relation statements are fed into BERT. The classifier is defined to learn a relation encoder that is utilized to specify if two relation representations embed the same relation. Parameters of the encoder is learned by minimizing the loss function.
 
 
-<img src="https://github.com/VahidehReshadat/CargoRelationExtraction/blob/Bert_Imags/Presentation1-5.jpg" alt="overview of the training process with MTB" width="400"/>
+<img src="https://github.com/VahidehReshadat/CargoRelationExtraction/blob/master/Bert_Imags/Presentation1-5.jpg" alt="overview of the training process with MTB" width="400"/>
 
 
 
