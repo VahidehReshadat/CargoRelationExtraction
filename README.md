@@ -6,11 +6,12 @@ The model is a [Pre-training of Deep Bidirectional Transformers for Language Und
 The results of experiments show that the model could represent the complex semantic information of the special cargo domain, and tasks initialized with these representations achieve promising results.
 
 ## Overview
-A PyTorch implementation of the models 
+A PyTorch implementation of the Bert-base relation extractor for special cargo domain 
+
 ## Requirements
 Requirements: Python (3.6+), PyTorch (1.2.0+), Spacy (2.1.8+)  
 
-Pre-trained BERT model of HuggingFace.co (https://huggingface.co)   
+Pre-trained BERT model of [HuggingFace.co](https://huggingface.co)   
 Code structure adopted from:
 [BertRE](https://github.com/plkmo/BERT-Relation-Extraction)
 
