@@ -15,17 +15,13 @@ In the training process, MTB exploits a pair of relation representations for eac
 
 
 
-
-
-
-
-----------------------
-
-Using the MTB pre-train model on domain data, the relation extraction model is built. The architecture of relation statement classification using MTB is illustrated in Figure 5. As shown in the figure, the target entities are marked with special entity markers in the input. Then, the marked input text is fed into the BERT model, and the corresponding states of the beginning of the two entity markers are concatenated, and the relation representation is extracted. 
-
-Figure 5 Architecture of the special cargo relation classifier. Target entities in the input (FAA and PharmaPort360) are represented using special markers showing the start ([E1] and [E2]) and the end ([/E1] and [/E2]) of each entity.
+Using the MTB pre-train model on domain data, the relation extraction model is built. The architecture of relation statement classification using MTB is illustrated in figure below. Architecture of the special cargo relation classifier. As shown in the figure, the target entities are marked with special entity markers in the input. Then, the marked input text is fed into the BERT model, and the corresponding states of the beginning of the two entity markers are concatenated, and the relation representation is extracted. Target entities in the input (FAA and PharmaPort360) are represented using special markers showing the start ([E1] and [E2]) and the end ([/E1] and [/E2]) of each entity. 
 
 The generated relation representation from the BERT transformer is fed into a fully connected layer. This layer is either the normalization of the relation representation or linear activation function. The layer type is selected as a hyper-parameter. The last layer is a classification layer with softmax activation that produces the probability of each class. These layers are trainable using a few samples for each relation class.
+
+
+<img src="https://github.com/VahidehReshadat/CargoRelationExtraction/blob/master/Bert_Imags/BERT Classifier.jpg" alt="overview of the training process with MTB" width="400"/>
+
 
 ## Overview
 A PyTorch implementation of the models 
