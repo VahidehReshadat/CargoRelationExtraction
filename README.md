@@ -18,17 +18,17 @@ Code structure adopted from:
 
 In the training process, MTB exploits a pair of relation representations for each pair of relation statements with the aim of learning an encoder that specifies whether or not two relation statements encode the similar relation using the following binary classifier. Therefore, given a pair of relation statements, MTB tries to learn an embedding model that their inner product is high when both contain the same entity pair and low when entity pairs are different. In the training setup, the loss of masked language models of BERT and MTB are minimized concurrently. We test various training data and BERT models for training the relation statement encoder in this architecture. The Figure below shows an overview of the training process in MTB. The figure depicts that two different relation statements are fed into BERT. The classifier is defined to learn a relation encoder that is utilized to specify if two relation representations embed the same relation. Parameters of the encoder is learned by minimizing the loss function.
 
-
+<p align="center">
 <img src="https://github.com/VahidehReshadat/CargoRelationExtraction/blob/master/Bert_Imags/Presentation1-5.jpg" alt="overview of the training process with MTB" width="400"/>
-
+</p>
 
 Using the MTB pre-train model on domain data, the relation extraction model is built. The architecture of relation statement classification using MTB is illustrated in figure below. Architecture of the special cargo relation classifier. As shown in the figure, the target entities are marked with special entity markers in the input. Then, the marked input text is fed into the BERT model, and the corresponding states of the beginning of the two entity markers are concatenated, and the relation representation is extracted. Target entities in the input (FAA and PharmaPort360) are represented using special markers showing the start ([E1] and [E2]) and the end ([/E1] and [/E2]) of each entity. 
 
 The generated relation representation from the BERT transformer is fed into a fully connected layer. This layer is either the normalization of the relation representation or linear activation function. The layer type is selected as a hyper-parameter. The last layer is a classification layer with softmax activation that produces the probability of each class. These layers are trainable using a few samples for each relation class.
 
-
+<p align="center">
 <img src="https://github.com/VahidehReshadat/CargoRelationExtraction/blob/master/Bert_Imags/BERT Classifier.jpg" alt="overview of the training process with MTB" width="400"/>
-
+</p>
 
 
 
